@@ -1,0 +1,6 @@
+@echo off
+echo Restarting ADB...
+"C:\Users\Hallo Bosku\AppData\Local\Android\sdk\platform-tools\adb" kill-server
+"C:\Users\Hallo Bosku\AppData\Local\Android\sdk\platform-tools\adb" start-server
+"C:\Users\Hallo Bosku\AppData\Local\Android\sdk\platform-tools\adb" devices
+pause
